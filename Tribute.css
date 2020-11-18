@@ -1,0 +1,29 @@
+/* code written in "*" selector is used everywhere in the code*/
+/*Special Dancing script - cursive font used*/
+*{
+   font-family: 'Dancing Script', cursive;
+   font-size: larger;
+   color:rgb(00,00, 255) ; /* rgb blue color specified*/
+   line-height: 1.4; /*disitance between 2 lines*/
+}
+/*class used placing background on the entire screen*/
+.marginpull{
+            background-image: url("https://i.pinimg.com/originals/14/bf/b7/14bfb731b9dd3bae441cfcd22e4e2f61.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 10px;
+            padding-left: 350px;
+            }
+/*For aligning h1 and h2 to centre*/
+.centreAlign{
+/*    text-align: center;*/
+            padding-left: 30%;
+            }
+/*To alien the image in center*/
+.ImgAlign{
+            padding-left: 20%;
+         }
+/*For highlighting key words by underlining*/
+span{
+    text-decoration: underline;
+    }
